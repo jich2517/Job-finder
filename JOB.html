@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Job Dashboard | Explore Opportunities</title>
+  <link rel="stylesheet" href="JOB.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="/pic/logo.jpg" alt="Logo">
+          <h1>Jobs</h1>
+        </div>
+        <ul>
+          <li><a href="#"><i class="fas fa-user"></i><span class="nav-item">Dashboard</span></a></li>
+          <li><a href="#"><i class="fas fa-chart-bar"></i><span class="nav-item">Analytics</span></a></li>
+          <li><a href="#"><i class="fas fa-tasks"></i><span class="nav-item">Jobs Board</span></a></li>
+          <li><a href="#"><i class="fab fa-dochub"></i><span class="nav-item">Documents</span></a></li>
+          <li><a href="#"><i class="fas fa-cog"></i><span class="nav-item">Settings</span></a></li>
+          <li><a href="#"><i class="fas fa-question-circle"></i><span class="nav-item">Help</span></a></li>
+          <li><a href="#" class="logout"><i class="fas fa-sign-out-alt"></i><span class="nav-item">Logout</span></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="main-top">
+        <p>Explore the universe of opportunities!</p>
+      </div>
+      <div class="main-body">
+        <h1>Recent Jobs</h1>
+
+        <div class="search-bar">
+          <input type="search" placeholder="Search jobs...">
+          <select>
+            <option>Category</option>
+            <option>Web Design</option>
+            <option>App Design</option>
+            <option>App Development</option>
+          </select>
+          <select class="filter">
+            <option>Filter</option>
+          </select>
+        </div>
+
+        <div class="tags-bar">
+          <div class="tag"><i class="fas fa-times"></i><span>Programming</span></div>
+          <div class="tag"><i class="fas fa-times"></i><span>Design</span></div>
+          <div class="tag"><i class="fas fa-times"></i><span>PHP</span></div>
+          <div class="tag"><i class="fas fa-times"></i><span>JavaScript</span></div>
+        </div>
+
+        <div class="row">
+          <p>There are more than <span>400</span> Jobs</p>
+          <a href="#">See all</a>
+        </div>
+
+        <!-- Job Cards -->
+        <article class="job-card">
+          <div class="job-details">
+            <div class="img"><i class="fab fa-google-drive"></i></div>
+            <div class="text">
+              <h2>UX Designer</h2>
+              <span>Google Drive - Junior Post</span>
+            </div>
+          </div>
+          <div class="job-salary">
+            <h4>$6.7 - $12.5k /yr</h4>
+            <span>1 day ago</span>
+          </div>
+        </article>
+
+        <!-- Repeat for other job cards -->
+
+      </div>
+    </section>
+  </div>
+</body>
+</html>
